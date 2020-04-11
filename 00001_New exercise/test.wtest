@@ -1,0 +1,10 @@
+describe "Gustos de Luisa" {
+	test "A Luisa le gusta el guiso" {
+		assert.that(luisa.leGusta(guiso))
+	}
+
+	test "A Luisa no le gusta el asado" {
+		assert.that(luisa.leGusta(asado))
+	}
+  
+}
